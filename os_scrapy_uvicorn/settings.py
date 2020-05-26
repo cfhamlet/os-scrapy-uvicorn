@@ -58,8 +58,10 @@ ROBOTSTXT_OBEY = True
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
+TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
+
 EXTENSIONS = {"os_scrapy_uvicorn.extensions.Uvicorn": 1}
-UVICORN_APP = "os_scrapy_uvicorn.app:app"
+UVICORN_APP = "os_scrapy_uvicorn.example:app"
 UVICORN_CONFIG = {"host": "0.0.0.0"}
 
 # Configure item pipelines
