@@ -61,6 +61,8 @@ scrapy crawl example
     UVICORN_CONFIG = {"host": "0.0.0.0", "port": 5000}
     ```
 
+* when the server started, Scrapy crawler instance is attached to the app, it is the entrypoint to commnicate with Scrapy
+
 ## Unit Tests
 
 ```
