@@ -1,15 +1,11 @@
 # os-scrapy-uvicorn
 
-[![Build Status](https://www.travis-ci.org/cfhamlet/os-scrapy-uvicorn.svg?branch=master)](https://
-www.travis-ci.org/cfhamlet/os-scrapy-uvicorn)
-[![codecov](https://codecov.io/gh/cfhamlet/os-scrapy-uvicorn/branch/master/graph/badge.svg)](https
-://codecov.io/gh/cfhamlet/os-scrapy-uvicorn)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/os-scrapy-uvicorn.svg)](https://p
-ypi.python.org/pypi/os-scrapy-uvicorn)
-[![PyPI](https://img.shields.io/pypi/v/os-scrapy-uvicorn.svg)](https://pypi.python.org/pypi/os-scr
-apy-uvicorn)
+[![Build Status](https://www.travis-ci.org/cfhamlet/os-scrapy-uvicorn.svg?branch=master)](https://www.travis-ci.org/cfhamlet/os-scrapy-uvicorn)
+[![codecov](https://codecov.io/gh/cfhamlet/os-scrapy-uvicorn/branch/master/graph/badge.svg)](https://codecov.io/gh/cfhamlet/os-scrapy-uvicorn)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/os-scrapy-uvicorn.svg)](https://pypi.python.org/pypi/os-scrapy-uvicorn)
+[![PyPI](https://img.shields.io/pypi/v/os-scrapy-uvicorn.svg)](https://pypi.python.org/pypi/os-scrapy-uvicorn)
 
-This project provide a extension to start a ASGI http server([uvicorn](https://www.uvicorn.org/)) along with Scrapy in the same process.
+This project provide a extension to start a ASGI http server([Uvicorn](https://www.uvicorn.org/)) along with Scrapy in the same process.
 
 You can use the [ASGI framework](https://www.uvicorn.org/#alternative-asgi-servers)(recommend [FastAPI](https://github.com/tiangolo/fastapi)) to create app to communicate with Scrapy.
 
